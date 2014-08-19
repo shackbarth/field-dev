@@ -10,6 +10,14 @@ fields to the prospect list to exemplify how to approach for different types of 
   - Attribute requiring extra join in the database
   - Attribute based on custom client-side logic
 
+### File organization
+
+This extension crams a lot of files together that would, by best practices, be separate. If you
+were to follow the convention of `xtuple-ice-cream`, for example, there would be two database
+scripts, and four clientside files, spread between four directories. All that is overkill for
+an off-the-cuff piece of rapid field dev work, so this extension is an example of the least
+amount of scaffolding and ceremony is necessary.
+
 ### Naming conventions
 
 The name of this extension, per the `package.json` and `manifest.js`, is `xtuple-field-dev-sample`.
