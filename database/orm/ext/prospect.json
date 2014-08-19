@@ -10,7 +10,7 @@
     "relations": [
       {
         "column": "prospect_id",
-        "inverse": "prospect_id"
+        "inverse": "id"
       }
     ],
     "properties": [

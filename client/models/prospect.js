@@ -12,6 +12,5 @@ white:true*/
         return "_lengthIs".loc() + ": " + this.get("number").length;
       }
     });
-    // TODO: derive field in backbone
   };
 }());
