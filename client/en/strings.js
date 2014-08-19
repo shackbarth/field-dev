@@ -6,8 +6,8 @@ strict:true, trailing:true, white:true */
 (function () {
   "use strict";
 
-  // Nothing to do
   var lang = XT.stringsFor("en_US", {
+    "_lengthIs": "Length is"
   });
 
   if (typeof exports !== 'undefined') {

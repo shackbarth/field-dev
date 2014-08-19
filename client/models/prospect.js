@@ -7,6 +7,11 @@ white:true*/
   "use strict";
 
   XT.extensions.xtuple_field_dev_sample.initModels = function () {
+    XM.ProspectRelation.prototype.augment({
+      numberLength: function () {
+        return "_lengthIs".loc() + ": " + this.get("number").length;
+      }
+    });
     // TODO: derive field in backbone
   };
 }());

@@ -7,12 +7,10 @@ white:true*/
   "use strict";
 
   XT.extensions.xtuple_field_dev_sample.initList = function () {
-
-    var oldProspectListCreate = XV.ProspectList.prototype.create;
-    XV.ProspectList.prototype.create = function () {
-      oldProspectListCreate.apply(this, arguments);
-      console.log(this.$); // (debug code: to inspect the list components)
-      this.createComponent({kind: "XV.ListAttr", attr: "alternateNumber", container: this.$.listColumn2});
-    };
+    var extensions = [
+      {kind: "XV.ListAttr", attr: "alternateNumber", container: "listColumn"},
+      {kind: "XV.ListAttr", attr: "numberLength", container: "listColumn"}
+    ];
+    XV.appendExtension("XV.ProspectList", extensions);
   };
 }());
