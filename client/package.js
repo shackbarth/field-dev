@@ -1,5 +1,3 @@
 enyo.depends(
-  "core.js",
-  "prospect.js",
-  "list.js"
+  "core.js"
 );
