@@ -1,5 +1,5 @@
 enyo.depends(
   "core.js",
-  "models",
-  "views"
+  "prospect.js",
+  "list.js"
 );
