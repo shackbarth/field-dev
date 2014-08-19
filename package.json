@@ -1,0 +1,18 @@
+{
+  "author": "Steve Hackbarth <shackbarth@xtuple.com>",
+  "name": "xtuple-field-dev-sample",
+  "description": "xTuple field dev sample",
+  "version": "0.0.1",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "xtuple": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/xtuple/xtuple-ice-cream"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}

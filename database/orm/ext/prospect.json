@@ -1,0 +1,28 @@
+[
+  {
+    "context": "xtuple-field-dev-sample",
+    "nameSpace": "XM",
+    "type": "ProspectRelation",
+    "table": "prospect",
+    "isExtension": true,
+    "isChild": false,
+    "comment": "Extended by Steve Hackbarth, 18 August 2014",
+    "relations": [
+      {
+        "column": "prospect_id",
+        "inverse": "prospect_id"
+      }
+    ],
+    "properties": [
+      {
+        "name": "alternateNumber",
+        "attr": {
+          "type": "String",
+          "derived": true,
+          "method": "fd.reverse_and_foo(prospect_number)"
+        }
+      }
+    ],
+    "isSystem": true
+  }
+]
