@@ -15,6 +15,13 @@
     ],
     "properties": [
       {
+        "name": "site",
+        "toOne": {
+          "type": "SiteRelation",
+          "column": "prospect_warehous_id"
+        }
+      },
+      {
         "name": "alternateNumber",
         "attr": {
           "type": "String",
