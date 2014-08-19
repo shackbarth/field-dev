@@ -1,6 +1,17 @@
 xtuple-field-dev-sample
 ================
 
+### Overview
+
+Proof of concept for the most common type of field dev: adding fields to lists. This example adds four
+fields to the prospect list to exemplify how to approach for different types of list augmentation.
+  - Attribute based on new postgres function
+  - Attribute that was already in the query but wasn't in the view
+  - Attribute requiring extra join in the database
+  - Attribute based on custom client-side logic
+
+### Naming conventions
+
 The name of this extension, per the `package.json` and `manifest.js`, is `xtuple-field-dev-sample`.
 This repo has a slightly different name. It's best practice to use the same name throughout,
 but it's not strictly necessary, although if this were a `private-extension` or an

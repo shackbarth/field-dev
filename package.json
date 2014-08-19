@@ -6,11 +6,11 @@
   "dependencies": {
   },
   "peerDependencies": {
-    "xtuple": "*"
+    "xtuple": "~4.7.0"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/xtuple/xtuple-ice-cream"
+    "url": "http://github.com/shackbarth/field-dev"
   },
   "engines": {
     "node": "0.8.x"
