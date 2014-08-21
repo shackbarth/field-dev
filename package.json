@@ -1,7 +1,7 @@
 {
   "author": "Steve Hackbarth <shackbarth@xtuple.com>",
-  "name": "xtuple-field-dev-sample",
-  "description": "xTuple field dev sample",
+  "name": "xtuple-field-dev-sample-2",
+  "description": "Another xTuple field dev sample",
   "version": "0.0.1",
   "dependencies": {
   },
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/shackbarth/field-dev"
+    "url": "http://github.com/shackbarth/xtuple-extensions"
   },
   "engines": {
     "node": "0.8.x"
